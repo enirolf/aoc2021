@@ -1,4 +1,4 @@
-module IO where
+module ReadFile where
 
 import qualified System.IO
 

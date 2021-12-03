@@ -1,7 +1,7 @@
 -- https://adventofcode.com/2021/day/1
 module AoC.Day1 where
 
-import IO
+import ReadFile
 
 countIncreases :: [Int] -> Int
 countIncreases (x:y:rest) = (if y > x then 1 else 0) + countIncreases (y:rest)

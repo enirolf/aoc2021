@@ -1,7 +1,7 @@
 -- https://adventofcode.com/2021/day/2
-module AoC.Day1 where
+module AoC.Day2 where
 
-import IO
+import ReadFile
 
 processCommands :: [String] -> [(String, Int)]
 processCommands = map (processCommand . words)
